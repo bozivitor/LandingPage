@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family= Poppins :wght@300;400 & display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+font-size: 100%;
+background-color: rgb(255, 255, 255);
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Poppins', sans-serif;
+    padding: 24px;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.menu{
+    display: flex;
+    gap: 32px;
+}
+
+.ancora1{
+    padding: 24px;
+    display: flex;
+    font-size: 19px;
+    color: black;
+    font-weight: 400;
+
+}
+.conteudo{
+    display: flex;
+    margin-bottom: 48px;
+    border-top: 0.4px solid black;
+    
+}
+.conteudo-escrito{
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    gap: 10px;
+    font-family: 'Poppins', sans-serif;
+    align-content: space-around;  
+}
+
+.titulo-conteudo{
+    font-size: 50px ;
+    font-weight: 400;
+    color: rgb(6, 53, 6);
+    padding-left: 30px;
+    
+}
+
+.subtitulo-conteudo{
+    font-size: 25px;
+    font-weight: 400;
+    color: dimgray;
+    padding-left: 30px;
+    padding-top: 15px;
+
+}
+
+.paragrafo-conteudo{
+    font-size: 15px;
+    display: flex;
+    padding-left: 30px;
+}
+
+.imagem-conteudo{
+    display: flex;
+    flex-direction: row;
+    height: 430px;
+    justify-content: space-around;
+    
+}
+.conteudo-secundario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+    font-family: 'Poppins', sans-serif;
+}
+.subtitulo-conteudo2{
+    border-top: 0.4px solid black;
+    padding-top: 48px;
+    font-weight: 400;
+    font-size: 24px;
+    margin-bottom: 16px;
+}
